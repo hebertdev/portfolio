@@ -1,0 +1,73 @@
+.title {
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}
+
+/* styles.module.css */
+.mySwiper {
+  /* Add the styles for the Swiper container here */
+}
+
+.projectContainer {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 8;
+  position: relative;
+  margin-bottom:15px;
+
+  @media screen and (max-width: 768px) {
+    aspect-ratio: 16 / 20;
+  }
+}
+
+.bg_difuminated {
+  position: absolute;
+  top: 100px;
+  left: -20px;
+  width: 200px;
+  height: 180px;
+  /* gradient */
+  background: orange;
+  filter: blur(65px);
+  border-radius: 20px;
+  z-index: -10;
+}
+
+.projectImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  object-fit: fill;
+}
+
+.projectDetails {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 2;
+}
+
+.projectTitle {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #fff;
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.projectSeparator {
+  color: #fff;
+  margin-bottom: 10px;
+}

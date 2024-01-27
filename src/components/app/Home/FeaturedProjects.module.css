@@ -1,0 +1,122 @@
+.container_all {
+  width: 100%;
+  position: relative;
+}
+
+/* .container_all::before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 300px;
+  background: rgb(255 192 203 / 13%);
+  top: -20px;
+  right: 0;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+} */
+
+.container {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 120px);
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 80px;
+  gap: 10px;
+  @media screen and (max-width: 768px) {
+    display: block;
+    height: auto;
+  }
+}
+
+.container_left {
+  flex: 1.5;
+  height: 100%;
+}
+
+.container_right {
+  flex: 2.5;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container_content {
+  display: flex;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.container_content_tex {
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.vertical_line {
+  width: 5px;
+  height: 100%;
+  background: #416fe4;
+  opacity: 0.8;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  @media screen and (max-width: 768px) {
+    height: auto;
+  }
+}
+
+.container_project_footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  right: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}
+
+.title_project {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+.sub_title_project {
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.container_right_img {
+  padding: 20px;
+  width: 100%;
+  overflow: hidden;
+  background: #1bd575e6;
+  border-radius: 10px;
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+  }
+}
+
+.container_right_img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container_role {
+  padding: 20px 0;
+  margin-bottom: 10px;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}

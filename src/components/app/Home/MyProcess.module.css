@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 40px;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}
+
+.sub_title_project {
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.description {
+  text-align: center;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    text-align: left;
+  }
+}
+
+.container {
+  margin-bottom: 80px;
+}

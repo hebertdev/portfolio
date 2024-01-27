@@ -1,0 +1,8 @@
+.title {
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}
