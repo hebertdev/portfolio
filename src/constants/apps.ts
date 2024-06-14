@@ -9,7 +9,7 @@ export const apps = [
     logo: logo_seifree.src,
     title: "Seiftree",
     description: "Seguridad y cifrado en la nube para cuentas y notas.",
-    link: "https://seiftree.netlify.app/",
+    link: "https://seiftree.hebertdev.net/",
   },
   {
     logo: logo_movies.src,
@@ -28,6 +28,6 @@ export const apps = [
     title: "Culqi full",
     description:
       "biblioteca de React para la integración con el procesador de pagos Culqi.",
-    link: "https://react-culqi.hebertdev.net/",
+    link: "https://react-culqi-next.hebertdev.net/",
   },
 ];

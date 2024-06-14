@@ -55,29 +55,29 @@ export const projects = [
       "Landing page for batteries delivery arequipa, website built in django, html, css, javascript and vue",
     image: baterias.src,
     github: null,
-    demo: null,
+    demo: "https://www.bateriasarequipadelivery.com/",
   },
-  {
-    id: 3,
-    name: "ONLINE STORE ",
-    description:
-      "Web application (Online Store), built with next js. The whole backend is built with django and django rest framework.",
-    image: tavas.src,
-    github: null,
-    demo: "https://tavas.netlify.app/",
-  },
-  {
-    id: 4,
-    name: "ONLINE STORE - DASHBOARD ",
-    description: `online store admin panel - integrated in django -
-            demo: {
-            user: admin@gmail.com,
-            password: facebook123
-            }`,
-    image: dashboard.src,
-    github: null,
-    demo: "https://tavas.pythonanywhere.com/",
-  },
+  // {
+  //   id: 3,
+  //   name: "ONLINE STORE ",
+  //   description:
+  //     "Web application (Online Store), built with next js. The whole backend is built with django and django rest framework.",
+  //   image: tavas.src,
+  //   github: null,
+  //   demo: "https://tavas.netlify.app/",
+  // },
+  // {
+  //   id: 4,
+  //   name: "ONLINE STORE - DASHBOARD ",
+  //   description: `online store admin panel - integrated in django -
+  //           demo: {
+  //           user: admin@gmail.com,
+  //           password: facebook123
+  //           }`,
+  //   image: dashboard.src,
+  //   github: null,
+  //   demo: "https://tavas.pythonanywhere.com/",
+  // },
   {
     id: 2,
     name: "POKEDEX APP - REACT.JS ",
